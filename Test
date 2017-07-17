@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+echo "# taylor-meyer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/meyer003/meyer003.git
+git remote -v
+git push -u origin master
+
+<html>
+
+<h1>
+<center>
+	<img src = "logo.png" width="150px">
+</center>
+</h1>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Home</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">     
+        		
+        		<div style="width: 100%; height: 40px; border-bottom: 5px solid black; text-align: center">
+        		  <span style="font-size: 40px; background-color: #808080; padding: 0 10px;">
+        			<font size = "7">
+        				<font color = "white">
+        				<b>
+        					ABOUT 
+        				</font>
+        				<font color="#33ccff">
+        					ME
+        				</b>
+        				</font>
+        			</font>
+        		  </span>
+        		</div>
+        		<p>
+        		<br>
+        		<center>
+        		<font color = "#33ccff">
+        			ALLOW ME TO INTRODUCE MYSELF.
+        		</font>
+        			<br>
+        			<p>
+        			
+        			<style>
+        			a:link {
+        				color: "#33ccff";
+        				background-color: transparent;
+        				text-decoration: underline;
+        			}
+        			</style>
+        			
+        			Taylor Meyer is a junior in Mechanical Engineering at Iowa State University. She has gained experience working
+        			as an Engineering Intern at Turck Inc in Plymouth, MN for two summers. 
+        			 
+        		
+        <p>
+        			I am a current member of Iowa State’s Cyclone Space Mining Club. The goal of the club is to build a 
+        			robot that can mine on the Moon or Mars. Each spring the robot is taken to competition in Florida at NASA’s 
+        			Kennedy Space Center to compete against 50 other universities.
+        		
+        <p>
+        			
+        			Download her 
+        			<a href = "resume2017.pdf" download>
+        			<font color="#33ccff">
+        			resume 
+        			</a>
+        			</font>
+        			for more information.
+        </div>
+        </div>
+        </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Resume</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+        
+        <div style="width: 100%; height: 40px; border-bottom: 5px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #808080; padding: 0 10px;">
+        	<font size = "7">
+        		<font color = "white">
+        		<b>
+        			DOWNLOAD 
+        		</font>
+        			
+        	<style>
+        		a:link {
+        			color: "#33ccff";
+        			background-color: transparent;
+        			text-decoration: none;
+        	}
+        	</style>
+        	<font color="#33ccff">
+        		<a href = "resume2017.pdf" download>
+        			HERE
+        		</a>
+        		</b>
+        		</font>
+        	</font>
+        </span>
+        </div>
+        <p>
+        <br>
+
+        <center>
+        <font color = "#33ccff">
+        	LEARN MORE ABOUT ME.
+        </font>
+        	<br>
+        	<p>
+        	<div id="pdf">
+        	  <object width="800" height="1150" type="application/pdf" data="resume2017.pdf" id="pdf_content">
+        	    <p>Insert your error message here, if the PDF cannot be displayed.</p>
+        	  </object>
+        	</div>
+        	</div>
+        
+        </div>
+      </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">My Projects</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+        
+        <div style="width: 100%; height: 40px; border-bottom: 5px solid black; text-align: center">
+        <span style="font-size: 40px; background-color: #808080; padding: 0 10px;">
+        	<font size = "7">
+        		<font color = "white">
+        		<b>
+        			MECHANICAL
+        		</font>
+        		<font color="#33ccff">
+        			ENGINEERING
+        		</b>
+        		</font>
+        	</font>
+        </span>
+        </div>
+        <p>
+        <br>
+
+        <center>
+        <font color = "#33CCFF">
+        	WHAT I LOVE TO DO.
+        </font>
+          <br>
+          <p>
+          
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <div class="w3-content" style="max-width:700px">
+          <body>
+
+          <div class="w3-content w3-display-container">
+
+          <div class="w3-display-container mySlides">
+            <img src="CSM.jpg" style="width:100%">
+            <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+              Cyclone Space Mining
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="ME270.jpg" style="width:100%">
+            <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+              Mechancial Engineering 270 Class
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="FRC2015.jpg" style="width:100%">
+            <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+              FIRST Robotics Team 2526
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="FRCcoop.jpg" style="width:100%">
+            <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+              Final Robot in Competition
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="Podcast.jpg" style="width:100%">
+            <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+              The AV Life Podcast
+            </div>
+          </div>
+              
+          <div class="w3-display-container mySlides">
+           <img src="Outreach.jpg" style="width:100%">
+           <div class="w3-display-bottomcenter w3-large w3-container w3-padding-16 w3-black">
+             Cyclone Space Mining Outreach 
+           </div>
+          </div>
+     
+
+          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+          </div>
+          </div>
+
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+          
+        </div>
+        
+        </div>
+      </div>
+
+
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Past Internships</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">
+      
+      <div style="width: 100%; height: 40px; border-bottom: 5px solid black; text-align: center">
+      <span style="font-size: 40px; background-color: #808080; padding: 0 10px;">
+      	<font size = "7">
+      		<font color = "white">
+      		<b>
+      			PAST 
+      		</font>
+      		<font color="#33ccff">
+      			INTERNSHIPS
+      		</b>
+      		</font>
+      	</font>
+      </span>
+      </div>
+      <p>
+      <br>
+
+      <center>
+      <font color = "#33ccff">
+      	GAINING VALUABLE EXPERIENCES.
+      </font>
+      	
+      	<br>
+        <center>
+        
+        <h2>
+        <font color = "black">
+        Turck Inc. 
+        </h2>
+        Plymouth, MN
+        </font>
+        <p>
+        <br>
+        <font color = "#cccccc">
+        "[Taylor] had in-depth knowledge and hands on experience about manufacturing design and
+        technical communication. She possesses outstanding interpersonal and communication skills
+        and during her time at Turck she showed the ability to work in coordination with 
+        technicians and other engineers. She assisted in launching a new product family at 
+        Turck by managing technical specifications and performing several validation studies. 
+        She was always enthusiastic and willing to learn new things related to her work"
+        	<p>
+        	<font color="#33ccff">
+        	-Kaisa Eno
+        	</font>
+        </center>
+      </div>    
+      </div>
+</div>
+
+<CENTER>
+<a href = "https://www.linkedin.com/in/taylor-meyer-694500103/_blank" target = "_blank"> <img src = "linkedin.png" width=5%>
+<a href = "mailto:tameyer@iastate.edu"> <img src = "gmail.png" width = 5%>
+</center>
+
+
+</body>
+</html>
